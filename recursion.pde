@@ -1,12 +1,12 @@
 void setup() {
-  size(800 , 800);
+  size(1000 , 1000);
 }
 
 void draw() {
   background(255);
   stroke(0);
   noFill();
-  drawCircle(width/2, height/2, 500);
+  drawCircle(width/2, height/2, 650);
 }
 
 void drawCircle(float x, float y, float radius) {
